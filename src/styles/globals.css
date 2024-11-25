@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for scrollbar and animations */
+:root {
+  --primary-bg: #1B1E1B;
+  --secondary-bg: #0F766E;
+  --accent: #059669;
+  --highlight: #34D399;
+  --text: #F8FAFC;
+}

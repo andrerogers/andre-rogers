@@ -1,3 +1,18 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap location (if you add one later)
+# Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Prevent crawling of certain directories if needed
+# Disallow: /private/
+# Disallow: /temp/
+# Disallow: /admin/
+
+# Rate limiting for specific bots if needed
+# User-agent: Googlebot
+# Crawl-delay: 1
+
+# User-agent: Bingbot
+# Crawl-delay: 1
